@@ -9,7 +9,7 @@ if ItemsInCart != 2:
 assert (ItemsInCart == 0)
 ##########################################################################
 # Try , Catch
-# if you writing a code and your code may fail
+# if you're writing a code and your code may fail,
 # but you don't want your test case to stop when you come across this failure
 # you can wrap this specific code in try block , your test will be sent to catch block
 

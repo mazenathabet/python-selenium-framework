@@ -10,6 +10,8 @@ print(name[0:5])  # Mazen
 print(name + " is " + gender)
 # concatenate int and string
 print("{} {} {}".format(name + " is", age, "Years old"))
+print(f'{name} is {age} years old')
+print("{} is {} years old".format(name,age))
 # check if a string is present in another string or not ( contains )
 print(first_name in name)  # it is bool and returns true -> because Mazen Ahmed contains Mazen
 # split string with the " " white space between them and put the parts into a list
